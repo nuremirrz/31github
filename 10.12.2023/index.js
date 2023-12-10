@@ -51,7 +51,7 @@ const calcTempAmplitutdeNew = function(t1, t2) {
 
         if(typeof currentTemp !== 'number') continue
 
-        //debugger;
+        //debugger; (write in chrome console)
         if(currentTemp > max) max = currentTemp;
         if(currentTemp < min) min = currentTemp;
 

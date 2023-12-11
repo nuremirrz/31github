@@ -7,8 +7,8 @@ console.log(`${data1[0]} °C ... ${data1[1]} °C ... ${data1[2]} °C`)
 const printForecast = function(arr) {
     let str = '';
     for (let i = 0; i < arr.length; i++) {
-        str = str + `${arr[i]}°C`; 
+        str += `${arr[i]}°C in ${i + 1} days ... `; 
     }
-    console.log(str);
+    console.log('...' + str);
 }
 printForecast(data1);
